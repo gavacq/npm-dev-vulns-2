@@ -1,0 +1,4 @@
+# ignore standard npm files
+node_modules
+npm-debug.log
+out.yml

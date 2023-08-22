@@ -1,0 +1,19 @@
+job:
+  package-manager: npm_and_yarn
+  allowed-updates:
+    - update-type: security
+  # security-updates-only: true
+  experiments:
+    npm-transitive-security-updates: true
+  ignore-conditions:
+    - dependency-name: '@sparelabs/*'
+#   security-advisories:
+#     - dependency-name: protobufjs
+#       advisory-id: GHSA-h755-8qp9-cq85
+#       patched-versions:
+#         - ">= 6.10.0, < 6.11.4"
+  source:
+    provider: github
+    repo: gavacq/npm-dep-vulns
+    directory: /
+  # updating-a-pull-request: true
