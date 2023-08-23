@@ -9,7 +9,7 @@
   "dependencies": {
     "react-scripts": "^4.0.3",
     "protobufjs": "6.11.4",
-    "moment-timezone": "0.5.34"
+    "moment-timezone": "0.5.35"
   },
   "keywords": [],
   "author": "",
