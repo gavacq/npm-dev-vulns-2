@@ -4,4 +4,8 @@ updates:
     directory: ''
     schedule:
       interval: 'daily'
+    assignees:
+      - gavacq
+    labels:
+      - 'security'
     open-pull-requests-limit: 0
